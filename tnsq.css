@@ -1,0 +1,238 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Nunito Sans', sans-serif; ;
+}
+
+.mega-nav{
+    background-color: rgb(231, 217, 217);
+    display: flex;
+    min-height: 75px;
+}
+
+.logo{
+    max-width: 90px;
+    margin-left:100px ;
+    padding: 8px 0px;
+
+}
+
+input{
+    min-width: 800px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 18px;
+    margin-left: 50px;
+    border: none;
+}
+
+::placeholder{
+    padding: 10px 10px 50px 25px;
+    color:rgb(210, 207, 207) ;
+}
+
+.options{
+    display: flex;
+ margin-left: 50px;
+}
+
+
+
+.img-link> img{
+    max-width:25px;
+    padding: 6px 0px;
+   
+}
+.img-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* margin: 20px; */
+    /* flex-direction: row; */
+    justify-content: center;
+}
+
+h6{
+    color: #832729;
+    font-size: 20;
+}
+
+#hov{
+   transition: all 0.5s;
+}
+#hov:hover{
+    letter-spacing: 2px;
+color: blue !important;
+}
+
+.neckCard a:hover{
+font-weight:bold;
+}
+
+
+.navbar{
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+
+}
+
+.navbar > a{
+    padding: 15px 10px ;
+    text-decoration: none;
+    color: black;
+    margin:12px 6px;
+   
+
+}
+section{
+    max-width: 85%;
+    margin: auto; 
+}
+
+.txt1{
+    text-align: center;
+    padding: 30px 20px;
+}
+
+
+.heading{
+    font-size: 40px;
+    line-height: 35px;
+  
+    color: #832729;
+    text-align: center !important;
+    font-weight:600!important;
+    letter-spacing: 0.5px;
+}
+
+.para{
+    font-size: 15px;
+    text-align: center!important;
+    line-height: 3em;
+    font-kerning: normal;
+    font-weight: 400;   
+    letter-spacing: 0rem;
+}
+
+
+
+
+.neckContainer1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.neckCard{
+    border: 1px solid rgb(220, 206, 206);
+    margin: 12px;
+    border-radius: 8px;
+    max-width: 188px;
+    padding-bottom: 20px;
+}
+.neckCard>img{
+    max-width:188px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+
+}
+.neckCard>h1{
+    font-size: 14px;
+    text-align: center;
+    color:rgb(132, 14, 14);
+}
+
+.neckCard a{
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+    padding-left:65px;
+    font-size: 13px;
+    font-weight:550;
+}
+
+.earContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+.earCard{
+    margin: 15px;
+    border: 1px solid rgb(220, 214, 214);
+    border-radius: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+   max-width: 100%;
+    padding-bottom: -100px;
+}
+.earCard >img{
+    min-width: 410px !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+
+}
+.card2txt{
+    display: flex;
+    justify-content: space-between;
+}
+.earCard h2{
+    font-size: 17px;
+    color:rgb(132, 14, 14);
+    padding:6px 10px ;
+    font-size: 15px;
+
+}
+
+.earCard a{
+    color: rgb(42, 41, 41);
+    text-decoration: none;
+    font-size: 13px;
+    padding: 12px;
+}
+.deco{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color:rgb(132, 14, 14);
+
+}
+
+.decor{
+max-width: 1600px;
+margin: auto;
+margin: -45px 80px;
+
+
+}
+.decor img{
+   min-width:100%
+}
+
+.secondHeading{
+    padding-top: 65px;
+    margin-bottom: -65px;
+}
+
+.section-three>img{
+    
+
+   width: 100%;
+    border-radius: 30px;
+  
+}
+
